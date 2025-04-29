@@ -1,6 +1,4 @@
-Absolutely — here's a straight-to-the-point `README.md` for your portfolio website:
 
----
 
 # Mudit's Portfolio
 
