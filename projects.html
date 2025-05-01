@@ -1,8 +1,123 @@
-<section>
-  <h2>My Projects</h2>
-  <ul>
-    <li>Railway Reservation System – C++</li>
-    <li>Railway Management System – Java</li>
-    <li>This Portfolio – HTML/CSS</li>
-  </ul>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Mudit</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #1abc9c;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #1abc9c;
+      margin-bottom: 1.5rem;
+    }
+
+    .project {
+      margin-bottom: 2rem;
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .project a {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project p {
+      margin: 0.5rem 0 0;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mudit</h1>
+    <p>BCA Student | Project Showcase</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>My Projects</h2>
+
+    <div class="project">
+      <h3>1) Railway Reservation System</h3>
+      <a href="#">[GitHub Link]</a>
+      <p>I created this system using C++. It includes ticket booking, cancellation, and basic train management features with file handling.</p>
+    </div>
+
+    <div class="project">
+      <h3>2) Railway Management System (Java Version)</h3>
+      <a href="#">[GitHub Link]</a>
+      <p>This is an improved OOP version in Java using ArrayList and multiple classes to make it more modular and maintainable.</p>
+    </div>
+
+    <div class="project">
+      <h3>3) Portfolio Website</h3>
+      <a href="#">[Live Site]</a>
+      <p>I built this personal portfolio using HTML and CSS to showcase my skills, projects, and contact details. It's hosted on GitHub Pages.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2025 Mudit
+  </footer>
+
+</body>
+</html>
