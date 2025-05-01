@@ -3,53 +3,102 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mudit | Home</title>
+  <title>Home - Mudit</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
       color: #333;
     }
+
     header {
       background: #2c3e50;
       color: white;
-      padding: 2rem 1rem;
+      padding: 2.5rem 1rem;
       text-align: center;
     }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0;
+      color: #ecf0f1;
+    }
+
     nav {
       background: #1abc9c;
       padding: 1rem;
       text-align: center;
     }
+
     nav a {
       color: white;
       text-decoration: none;
       margin: 0 1rem;
       font-weight: bold;
+      transition: opacity 0.3s;
     }
-    section {
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    .hero {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       text-align: center;
-      padding: 2rem;
     }
-    img.profile {
-      width: 150px;
-      border-radius: 50%;
-      margin-top: 1rem;
+
+    .hero h2 {
+      color: #1abc9c;
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
+
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1abc9c;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #16a085;
+    }
+
     footer {
+      background: #2c3e50;
+      color: white;
       text-align: center;
       padding: 1rem;
-      background: #ddd;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Welcome to Mudit's Portfolio</h1>
-    <p>BCA Student | Future Software Engineer</p>
-    <img src="https://cdn.discordapp.com/attachments/953254505368141846/1367372352824016967/Screenshot_2025-05-01_at_10.59.03_AM.png?ex=6814583d&is=681306bd&hm=008ad919c54901280ca1ef098b2d9ba0fa77208b9a42b4d8a14b7ec431912447&" alt="Profile Photo" class="profile">
+    <h1>Mudit</h1>
+    <p>BCA Student | Future Software Developer</p>
   </header>
 
   <nav>
@@ -59,14 +108,17 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <section>
-    <h2>Hello!</h2>
-    <p>This is my personal portfolio website. Explore my journey, projects, and skills.</p>
+  <section class="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>
+      Hi, I'm Mudit — a BCA student passionate about programming, technology, and creating real-world software solutions.
+      This website is a glimpse into my journey, projects, and aspirations as I grow into a full-stack developer.
+    </p>
+    <a href="projects.html" class="btn">View My Projects</a>
   </section>
 
   <footer>
-    &copy; 2025 Mudit | <a href="https://github.com/muditkaze" target="_blank">GitHub</a> |
-    <a href="https://linkedin.com/in/muditkaze" target="_blank">LinkedIn</a>
+    &copy; 2025 Mudit
   </footer>
 
 </body>
